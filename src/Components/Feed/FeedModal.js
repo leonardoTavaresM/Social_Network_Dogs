@@ -8,8 +8,7 @@ import styles from "./FeedModal.module.css";
 
 const FeedModal = ({ photo, setModalPhoto }) => {
   const { data, error, loading, request } = useFetch();
-  console.log("data", data);
-  console.log("photo", photo);
+
   useEffect(() => {
     const { url, options } = PHOTO_GET(photo.id);
     request(url, options);

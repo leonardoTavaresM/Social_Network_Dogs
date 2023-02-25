@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-// import URL from "./URL";
+import { useState } from "react";
 
 const TokenPost = () => {
   const [username, setUsername] = useState("");
