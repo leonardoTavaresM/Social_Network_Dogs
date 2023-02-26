@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import UserHeaderNav from "./UserHeaderNav";
 
 import styles from "./UserHeader.module.css";

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import FeedPhotosItem from "./FeedPhotosItem";
 import useFetch from "../../Hooks/useFetch";
 import { PHOTOS_GET } from "../../api";

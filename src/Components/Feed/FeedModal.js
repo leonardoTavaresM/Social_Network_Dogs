@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { PHOTO_GET } from "../../api";
 import useFetch from "../../Hooks/useFetch";
 import Error from "../Helper/Error";

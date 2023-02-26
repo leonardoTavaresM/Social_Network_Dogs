@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { PHOTO_GET } from "../../api";
 import useFetch from "../../Hooks/useFetch";

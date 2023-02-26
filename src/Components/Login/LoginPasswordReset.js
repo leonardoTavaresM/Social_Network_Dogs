@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../Forms/Button";
 import Input from "../Forms/Input";
 import useForm from "../../Hooks/useForm";

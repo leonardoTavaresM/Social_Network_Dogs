@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./UserStatsGraphs.module.css";
 import { VictoryPie, VictoryChart, VictoryBar } from "victory";
 
 const UserStatsGraphs = ({ data }) => {
   const [graph, setGraph] = useState([]);
   const [total, setTotal] = useState(0);
-  console.log("graph", graph);
-  console.log("total", total);
-  console.log("data", data);
+
   useEffect(() => {
     if (data.length > 0) {
       const graphData = data.map((item) => {

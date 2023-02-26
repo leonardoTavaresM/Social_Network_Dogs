@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { USER_POST } from "../../api";
 import useFetch from "../../Hooks/useFetch";
 import useForm from "../../Hooks/useForm";
@@ -25,7 +25,7 @@ const LoginCreate = () => {
       password: password.value,
     });
 
-    const { response, json } = await request(url, options);
+    const { response } = await request(url, options);
 
     if (response.ok) userLogin(username.value, password.value);
   }

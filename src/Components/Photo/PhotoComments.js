@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { UserContext } from "../../UserContext";
 import PhotoCommentsForm from "./PhotoCommentsForm";
 import styles from "./PhotoComments.module.css";
